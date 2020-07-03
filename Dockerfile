@@ -5,6 +5,7 @@ RUN apk add --no-cache \
     ruby-dev \
     ruby-rdoc \
     ruby-irb \
+    ruby-webrick \
     g++ \
     make \
     curl \
