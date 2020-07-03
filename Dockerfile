@@ -7,6 +7,7 @@ RUN apk add --no-cache \
     ruby-irb \
     g++ \
     make \
+    curl \
     && rm -rf /tmp/* /var/tmp/* \
     && gem install fastlane \
     && apk del g++ make
